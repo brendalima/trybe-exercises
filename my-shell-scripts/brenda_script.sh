@@ -1,4 +1,5 @@
 #!/bin/bash
+#Eu sou Tryber e...
 echo "Criando um arquivo"
 cat > aquivo.txt
 kiara
