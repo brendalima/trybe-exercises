@@ -6,6 +6,48 @@
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
     <body>
+        <form method="get">
+            <fieldset>
+                <div class="field">
+                <label for="name">Nome: </label>
+                <input name="name" type="text" id="name" maxlength="40" required="required">
+                </div>
+
+                <div class="field">
+                <label for="e-mail">E-mail: </label>
+                <input name="email" type="text" id="e-mail" maxlength="50" required="required">
+                </div>
+
+                <div class="field">
+                <label for="cpf">CPF: </label>
+                <input name="cpf" type="text" id="cpf" maxlength="11" required="required">
+                </div>
+
+                <div class="field">
+                <label for="address">Endereço: </label>
+                <input name="address" type="text" id="address" maxlength="200" required="required">
+                </div>
+
+                <div class="field">
+                <label for="city">Cidade: </label>
+                <input name="city" type="text" id="city" maxlength="28" required="required">
+                </div>
+
+                <div class="field">
+                  <label for="estate">Selecione seu estado: </label>
+                  <select name="estate" id="estate" required="required">
+                  </select>
+                </div>
+
+                <div class="field">
+                  <input type="radio" name="type-of-housing" id="house" required="required">
+                  <label for="house">Casa</label>
+                  <input type="radio" name="type-of-housing" id="apartment" required="required">
+                  <label for="apartment">Apartamento</label>
+                </div>
+
+            </fieldset>
+        </form>
     
     </body>
     <script type="text/javascript" src="script.js"></script>
