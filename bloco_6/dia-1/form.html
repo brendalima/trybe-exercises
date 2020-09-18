@@ -1,76 +1,142 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
-    <head>
-        <title>Formulário</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    </head>
-    <body>
-        <form method="get">
-            <fieldset>
-                <div class="field">
-                <label for="name">Nome: </label>
-                <input name="name" type="text" id="name" maxlength="40" required="required">
-                </div>
+  <head>
+    <title>Formulário</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body id="body">
+    <form id="form" method="get" onsubmit="return false">
+      <fieldset>
+        <div class="field">
+          <label for="name">Nome: </label>
+          <input
+            name="name"
+            type="text"
+            id="name"
+            maxlength="40"
+            required="required"
+          />
+        </div>
 
-                <div class="field">
-                <label for="e-mail">E-mail: </label>
-                <input name="email" type="text" id="e-mail" maxlength="50" required="required">
-                </div>
+        <div class="field">
+          <label for="e-mail">E-mail: </label>
+          <input
+            name="email"
+            type="text"
+            id="e-mail"
+            maxlength="50"
+            required="required"
+          />
+        </div>
 
-                <div class="field">
-                <label for="cpf">CPF: </label>
-                <input name="cpf" type="text" id="cpf" maxlength="11" required="required">
-                </div>
+        <div class="field">
+          <label for="cpf">CPF: </label>
+          <input
+            name="cpf"
+            type="text"
+            id="cpf"
+            maxlength="11"
+            required="required"
+          />
+        </div>
 
-                <div class="field">
-                <label for="address">Endereço: </label>
-                <input name="address" type="text" id="address" maxlength="200" required="required">
-                </div>
+        <div class="field">
+          <label for="address">Endereço: </label>
+          <input
+            name="address"
+            type="text"
+            id="address"
+            maxlength="200"
+            required="required"
+          />
+        </div>
 
-                <div class="field">
-                <label for="city">Cidade: </label>
-                <input name="city" type="text" id="city" maxlength="28" required="required">
-                </div>
+        <div class="field">
+          <label for="city">Cidade: </label>
+          <input
+            name="city"
+            type="text"
+            id="city"
+            maxlength="28"
+            required="required"
+          />
+        </div>
 
-                <div class="field">
-                  <label for="estate">Selecione seu estado: </label>
-                  <select name="estate" id="estate" required="required">
-                  </select>
-                </div>
+        <div class="field">
+          <label for="estate">Selecione seu estado: </label>
+          <select name="estate" id="estate" required="required"></select>
+        </div>
 
-                <div class="field">
-                  <input type="radio" name="type-of-housing" id="house" required="required">
-                  <label for="house">Casa</label>
-                  <input type="radio" name="type-of-housing" id="apartment" required="required">
-                  <label for="apartment">Apartamento</label>
-                </div>
-            </fieldset>
+        <div class="field">
+          <input
+            type="radio"
+            name="type-of-housing"
+            id="house"
+            required="required"
+          />
+          <label for="house">Casa</label>
+          <input
+            type="radio"
+            name="type-of-housing"
+            id="apartment"
+            required="required"
+          />
+          <label for="apartment">Apartamento</label>
+        </div>
+      </fieldset>
 
-            <fieldset>
-              <div class="field">
-                <label for="summary">Resumo do currículo:</label><br>
-                <textarea name="summary" id="summary" required="required" maxlength="1000" cols="40" rows="10"></textarea>
-              </div>
+      <fieldset>
+        <div class="field">
+          <label for="summary">Resumo do currículo:</label><br />
+          <textarea
+            name="summary"
+            id="summary"
+            required="required"
+            maxlength="1000"
+            cols="40"
+            rows="10"
+          ></textarea>
+        </div>
 
-              <div class="field">
-                <label for="position">Cargo: </label>
-                <input name="position" type="text" id="position" maxlength="40" required="required">
-                </div>
+        <div class="field">
+          <label for="position">Cargo: </label>
+          <input
+            name="position"
+            type="text"
+            id="position"
+            maxlength="40"
+            required="required"
+          />
+        </div>
 
-              <div class="field">
-                <label for="description">Descrição do cargo: </label>
-                <input name="description" type="text" id="description" maxlength="500" required="required">
-              </div>
+        <div class="field">
+          <label for="description">Descrição do cargo: </label>
+          <input
+            name="description"
+            type="text"
+            id="description"
+            maxlength="500"
+            required="required"
+          />
+        </div>
 
-              <div class="field">
-                <label for="date">Data de início: </label>
-                <input name="date" type="text" id="date" maxlength="10" required="required" placeholder="DD/MM/YYYY">
-              </div>
-
-            </fieldset>
-        </form>
+        <div class="field">
+          <label for="date">Data de início: </label>
+          <input
+            name="date"
+            type="text"
+            id="date"
+            maxlength="10"
+            required="required"
+            placeholder="DD/MM/YYYY"
+          />
+        </div>
+      </fieldset>
+      <input id="button" type="submit" value="OK" />
+      <input type="reset" id="clear" value="Limpar" />
+    </form>
     
-    </body>
-    <script type="text/javascript" src="script.js"></script>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
 </html>
