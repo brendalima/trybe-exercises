@@ -42,8 +42,8 @@ button.addEventListener('click', function () {
     alert('Formato inválido!')
   } else {
     verifyDay(date);
-    verifyYear(date);
     verifyMonth(date);
+    verifyYear(date);
   }
 });
 
