@@ -36,7 +36,7 @@ eraser.addEventListener('click', function () {
   div.parentNode.removeChild(div);
 });
 
-button.addEventListener('click', function (event) {
+button.addEventListener('submit', function (event) {
   event.preventDefault();
   let page = document.getElementById('body');
   let capture = document.getElementById('name').value + '<br>';
