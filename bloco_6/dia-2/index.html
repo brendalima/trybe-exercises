@@ -155,13 +155,6 @@
   </body>
   <script type="text/javascript" src="script.js"></script>
   <script type="text/javascript" src="pikaday.js">
-    let picker = new Pikaday(
-      {
-        field: document.getElementById('date'),
-        firstDay: 1,
-        minDate: new Date(),
-        maxDate: new Date(2020, 12, 31),
-        yearRange: [2000,2020];
-      });
+    let picker = new Pikaday({ field: document.getElementById('date') })
   </script>
 </html>
