@@ -3,14 +3,15 @@
   <head>
     <title>Formulário</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" media="screen" />
   </head>
   <body id="body">
     <form id="form" method="get" onsubmit="return false">
       <fieldset>
-        <div class="field">
+        <div class="form-group">
           <label for="name">Nome: </label>
           <input
+            class="form-control"
             name="name"
             type="text"
             id="name"
@@ -19,9 +20,10 @@
           />
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="e-mail">E-mail: </label>
           <input
+            class="form-control"
             name="email"
             type="text"
             id="e-mail"
@@ -30,9 +32,10 @@
           />
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="cpf">CPF: </label>
           <input
+            class="form-control"
             name="cpf"
             type="text"
             id="cpf"
@@ -41,9 +44,10 @@
           />
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="address">Endereço: </label>
           <input
+            class="form-control"
             name="address"
             type="text"
             id="address"
@@ -52,9 +56,10 @@
           />
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="city">Cidade: </label>
           <input
+            class="form-control"
             name="city"
             type="text"
             id="city"
@@ -63,33 +68,38 @@
           />
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="estate">Selecione seu estado: </label>
-          <select name="estate" id="estate" required="required"></select>
+          <select class="form-control" name="estate" id="estate" required="required"></select>
         </div>
 
-        <div class="field">
+        <div class="form-check form-check-inline">
           <input
+            class="form-check-input"
             type="radio"
             name="type-of-housing"
             id="house"
             required="required"
           />
-          <label for="house">Casa</label>
+          <label for="house" class="form-check-label">Casa</label>
+        </div>
+        <div class="form-check form-check-inline">
           <input
+            class="form-check-input"
             type="radio"
             name="type-of-housing"
             id="apartment"
             required="required"
           />
-          <label for="apartment">Apartamento</label>
+          <label for="apartment" class="form-check-label">Apartamento</label>
         </div>
       </fieldset>
 
       <fieldset>
-        <div class="field">
+        <div class="form-group">
           <label for="summary">Resumo do currículo:</label><br />
           <textarea
+            class="form-control"
             name="summary"
             id="summary"
             required="required"
@@ -99,9 +109,10 @@
           ></textarea>
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="position">Cargo: </label>
           <input
+            class="form-control"
             name="position"
             type="text"
             id="position"
@@ -110,9 +121,10 @@
           />
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="description">Descrição do cargo: </label>
           <input
+            class="form-control"
             name="description"
             type="text"
             id="description"
@@ -121,9 +133,10 @@
           />
         </div>
 
-        <div class="field">
+        <div class="form-group">
           <label for="date">Data de início: </label>
           <input
+            class="form-control"
             name="date"
             type="text"
             id="date"
@@ -133,8 +146,8 @@
           />
         </div>
       </fieldset>
-      <input id="button" type="submit" value="OK" />
-      <input type="reset" id="clear" value="Limpar" />
+      <input id="button" class="btn btn-primary" type="submit" value="OK" />
+      <input type="reset" id="clear" class="btn btn-secondary" value="Limpar" />
     </form>
   </body>
   <script type="text/javascript" src="script.js"></script>
