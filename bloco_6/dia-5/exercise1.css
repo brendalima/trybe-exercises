@@ -34,3 +34,14 @@ figure {
         flex: 50%;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    body {
+        background-color: yellow;
+        font-size: 25px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+
+}
