@@ -45,8 +45,8 @@ nav ul {
 }
 
 .aside-one, .aside-two, .main-content {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h2 {
@@ -76,6 +76,22 @@ footer {
 footer p {
     text-align: justify;
     font-size: 16px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    .asides {
+        margin-top: 10px;
+        display: flex;
+        background-color: #918E78;
+        border-radius: 10px;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .aside-one, .aside-two, .main-content {
+        width: 80%;
+    }
+
 }
