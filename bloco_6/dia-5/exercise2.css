@@ -18,7 +18,6 @@ header {
 }
 .titulo {
     font-size: 35px;
-    display: flex;
     text-align: center;
     justify-content: center;
     max-width: 100%;
@@ -86,12 +85,43 @@ footer p {
         display: flex;
         background-color: #918E78;
         border-radius: 10px;
-        justify-content: space-between;
+        justify-content: center;
         width: 90%;
     }
 
     .aside-one, .aside-two, .main-content {
         width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .titulo {
+        margin-left: 20px;
+    }
+    
+    header nav {
+        width: 30%;
+        justify-content: space-between;
+        background-color: #D37A1D;
+    }
+
+    .asides {
+        width: 80%;
+    }
+
+    .aside-one, .aside-two {
+        text-align: left;
+    }
+
+    .main-content {
+        width: 70%;
     }
 
 }
