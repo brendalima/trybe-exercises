@@ -43,5 +43,9 @@ figure {
         max-width: 70%;
     }
 
-
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
