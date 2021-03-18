@@ -83,7 +83,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 10-3: _Jest - Simulando comportamentos_
 - [X] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-07-project-jest-trybe/tree/brendalima-project-jest-trybe)_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 11: Introdução - React
 
@@ -95,25 +95,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 12-1: _Components com estado_
 - [X] 12-2: _Eventos e formulários no React_
-- [X] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [X] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/tryber/sd-07-project-movie-card-library-stateful/tree/brendalima-movie-card-library-stateful)_
 
 ##### Bloco 13: React
 
 - [X] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
 - [X] 13-2: _Ciclo de vida de componentes em React_
 - [X] 13-3: _React Router_
-- [X] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [X] 13-4: _[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-07-project-movie-card-library-crud/tree/brendalima-project-movie-card-library-crud)_
 
 ##### Bloco 14: Metodologias Ágeis
 
 - [X] 14-1: _Metodologias Ágeis_
-- [X] 14-2: _[Projeto - Frontend Online Store]()_
+- [X] 14-2: _[Projeto - Frontend Online Store](https://github.com/tryber/sd-07-project-frontend-online-store/tree/main-group-20)_
 
 ##### Bloco 15: Testes em React
 
 - [X] 15-1: _Testando React com a React Testing Library_
 - [X] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [X] 15-3: _[Projeto - Testes em React]()_
+- [X] 15-3: _[Projeto - Testes em React](https://github.com/tryber/sd-07-project-react-testing-library/tree/brendalima-react-testing)_
 
 ##### Bloco 16: Introdução ao Redux
 
@@ -122,59 +122,59 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 16-3: _React com Redux - Prática_
 - [X] 16-4: _React com Redux - Parte 2_
 - [X] 16-5: _Testes síncronos com React-Redux_
-- [X] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [X] 16-6: _[Projeto - Tabela com filtros de dados](https://github.com/tryber/sd-07-project-trybewallet/tree/brendalima-project-trybewallet)_
 
 ##### Bloco 17: Projeto React
 
-- [X] 17-1: _[Projeto - Jogo de Trivia]()_
+- [X] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-07-project-trivia-react-redux/tree/main-group-25)_
 
 ##### Bloco 18: React & Context API
 
 - [X] 18-1: _Context API do React_
 - [X] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [X] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-07-project-starwars-datatable-hooks/tree/brendalima-react-context-hooks-starwars-datatable-filters)_
 
 ##### Bloco 19: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [X] 19-1: _[Projeto - App de Receitas](https://github.com/tryber/sd-07-project-recipes-app/tree/main-group-22)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [X] 20-1: _Banco de dados SQL_
+- [X] 20-2: _Encontrando dados em um banco de dados_
+- [X] 20-3: _Filtrando dados de forma específica_
+- [X] 20-4: _Manipulando tabelas_
+- [X] 20-5: _[Projeto - All For One](https://github.com/tryber/sd-07-mysql-all-for-one/tree/brendalima-mysql-all-for-one)_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [X] 21-1: _Funções mais usadas no SQL_
+- [X] 21-2: _Descomplicando JOINs e UNIONs_
+- [X] 21-3: _Stored Routines & Subqueries_
+- [X] 21-4: _[Projeto - Vocabulary Booster](https://github.com/tryber/sd-07-mysql-vocabulary-booster/tree/brendalima-mysql-vocabulary-booster)_
 
 ##### Bloco 22: Bancos de dados relacionais
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [X] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [X] 22-2: _Normalização, Formas Normais e Dumps_
+- [X] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [X] 22-3: _[Projeto - One For All](https://github.com/tryber/sd-07-mysql-one-for-all/tree/brendalima-mysql-one-for-all)_
 
 ##### Bloco 23: Introdução - NoSQL
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [X] 23-1: _MongoDB - Introdução_
+- [X] 23-2: _Filter Operators_
+- [X] 23-3: _[Projeto - Data Flights](https://github.com/tryber/sd-07-mongodb-dataflights/tree/brendalima-mongodb-dataflights)_
 
 ##### Bloco 24: Updates
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [X] 24-1: _Updates Simples_
+- [X] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [X] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [X] 24-4: _[Projeto - Commerce](https://github.com/tryber/sd-07-mongodb-commerce/tree/brendalima-mongodb-commerce)_
 
 ##### Bloco 25: Aggregation Framework
 
